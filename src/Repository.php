@@ -12,4 +12,9 @@ abstract class Repository
     {
         return App::make(static::$model)->{$name}(...$arguments);
     }
+
+    public function __callStatic(string $name, array $arguments)
+    {
+        return App::make(static::class)->{$name}(...$arguments);
+    }
 }
