@@ -1,0 +1,21 @@
+{
+    "name": "ryangjchandler/repository",
+    "description": "A dead-simple repository class for use with Laravel.",
+    "keywords": [
+        "laravel", "repository", "repository pattern", "ryangjchandler"
+    ],
+    "authors": [
+        {
+            "name": "Ryan Chandler",
+            "email": "support@ryangjchandler.co.uk",
+            "homepage": "https://ryangjchandler.co.uk",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^7.0"
+    }
+}
