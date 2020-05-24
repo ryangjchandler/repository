@@ -1,6 +1,7 @@
 {
     "name": "ryangjchandler/repository",
     "description": "A dead-simple repository class for use with Laravel.",
+    "license": "MIT",
     "keywords": [
         "laravel", "repository", "repository pattern", "ryangjchandler"
     ],
